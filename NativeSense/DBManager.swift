@@ -17,7 +17,7 @@ class DBManager {
 
     private func openDB() {
     #if targetEnvironment(simulator)
-        let path = URL(fileURLWithPath: "/Users/jojo/Desktop/NativeSense/NativeSenseDB/quiz.sqlite3")
+        let path = URL(fileURLWithPath: "Desktop/NativeSense/NativeSenseDB/quiz.sqlite3")
 
         let folder = path.deletingLastPathComponent()
         try? FileManager.default.createDirectory(
