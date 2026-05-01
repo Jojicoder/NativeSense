@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode user-specific
+xcuserdata/
+*.xcuserstate
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Database (runtime data)
+NativeSenseDB/*.sqlite3
+NativeSenseDB/*.sqlite3-shm
+NativeSenseDB/*.sqlite3-wal
+
+# Backup files
+*.bak
+*.orig
+
+# Python
+__pycache__/
+*.pyc

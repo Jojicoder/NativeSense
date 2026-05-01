@@ -1,0 +1,150 @@
+text,explanation,correct_index,choice0,choice1,choice2,choice3
+"【誘いに乗る】
+A: You still down to go?
+B: Yeah, I'm ___.",I'm down = 行く気ある、乗り気,1,busy,down,late,lost
+"【軽い了承】
+A: Can you send me that later?
+B: ___.",Bet = OK、了解,0,Bet,Yet,Set,Let
+"【断る】
+A: You want some?
+B: Nah, I'm ___.",I'm good = いらない、大丈夫,0,good,late,lost,stuck
+"【謝罪を受ける】
+A: My bad, I totally forgot.
+B: You're ___.",You're good = 大丈夫、気にしてない,1,late,good,wrong,done
+"【納得する】
+A: He had to work late.
+B: Ah, that ___.",that tracks = なるほど、筋が通る,2,fails,breaks,tracks,stops
+"【共感する】
+A: This week has been brutal.
+B: Yeah, I ___ you.",I feel you = わかる、共感する,2,see,know,feel,watch
+"【気が乗らない】
+A: Wanna go out tonight?
+B: I'm not really ___ it.",not feeling it = 気が乗らない,3,on,at,with,feeling
+"【めっちゃ疲れた】
+A: Long day?
+B: Yeah, I'm ___.",I'm wiped = めっちゃ疲れた,0,wiped,ready,early,open
+"【予定を延期したい】
+A: Still good for tonight?
+B: Can we take a rain ___?",rain check = また今度にする,2,look,turn,check,call
+"【予定が入った】
+A: You still coming?
+B: Something came ___.",came up = 急用が入った,2,in,out,up,off
+"【自分の責任】
+A: Who messed up the order?
+B: That's on ___.",that's on me = 自分の責任,0,me,you,them,us
+"【相手の責任】
+A: I missed the deadline.
+B: That's kinda on ___.",that's on you = それは君の責任,1,me,you,them,us
+"【強く同意】
+A: This place is fire.
+B: For ___.",for sure = 確かに、ほんとそれ,1,real,sure,once,right
+"【意外だった】
+A: She actually apologized.
+B: Didn't see that ___.",didn't see that coming = 予想してなかった,3,going,leaving,happening,coming
+"【予想通り】
+A: He bailed again.
+B: Saw that ___.",saw that coming = そうなると思った,3,early,late,soon,coming
+"【ドタキャンする】
+A: Are we still on?
+B: I might have to bail ___.",bail = 行くのをやめる、抜ける,2,in,up,out,off
+"【中止する】
+A: The weather looks awful.
+B: Yeah, let's call it ___.",call it off = 中止する,3,on,in,out,off
+"【今日はここまで】
+A: We've been working for hours.
+B: Let's call it a ___.",call it a day = 今日はここまでにする,2,night,time,day,break
+"【その場で決める】
+A: What's the plan after dinner?
+B: We'll play it by ___.",play it by ear = その場で決める,3,hand,mind,time,ear
+"【迷っている】
+A: You gonna apply?
+B: I'm still on the ___.",on the fence = 迷っている,1,edge,fence,line,side
+"【そこまでは言わない】
+A: This is the best pizza ever.
+B: I wouldn't go that ___.",go that far = そこまでは言わない,2,long,deep,far,high
+"【一理ある】
+A: It might be too expensive.
+B: Fair ___.",fair point = それは一理ある,2,idea,plan,point,call
+"【まぁ納得】
+A: I just don't want to rush it.
+B: Fair ___.",fair enough = まぁ確かに、納得,3,idea,plan,point,enough
+"【本気か確認】
+A: I might just quit.
+B: Are you ___.",Are you serious? = 本気？,0,serious,ready,late,done
+"【まさか】
+A: He paid for everyone.
+B: No ___.",No way = まさか、信じられない,1,time,way,place,deal
+"【何の話？】
+A: She backed out.
+B: Wait, what do you ___?",what do you mean = どういう意味？,2,say,tell,mean,make
+"【どういうこと？】
+A: It got weird after that.
+B: How ___?",How so? = どういうこと？,3,come,then,now,so
+"【聞き取れない】
+A: I said we're leaving at 8.
+B: Sorry, I didn't ___ that.",didn't catch that = 聞き取れなかった,2,make,do,catch,take
+"【要点だけ聞く】
+A: I missed the whole meeting.
+B: What's the ___?",gist = 要点、ざっくりした内容,1,thing,gist,time,place
+"【大体わかる】
+A: You get what I'm saying?
+B: More or ___.",more or less = だいたい,3,better,worse,again,less
+"【なんとなく好き】
+A: You like the new design?
+B: Low-key, ___.","low-key, yeah = 地味にいい、正直ちょっと好き",2,no,why,yeah,now
+"【正直に言う】
+A: You like it?
+B: Not gonna ___, it's pretty good.",not gonna lie = 正直言って,3,say,tell,speak,lie
+"【軽く本音】
+A: You tired?
+B: Kinda, ___.","kinda, yeah = まあちょっとね",2,no,why,yeah,now
+"【かなり同意】
+A: That was awkward.
+B: Yeah, pretty ___.",pretty much = ほぼそう、かなりそう,3,less,more,close,much
+"【冗談だよ】
+A: Wait, are you serious?
+B: Nah, I'm just ___.",just messing with you = からかってるだけ,1,talking,messing,waiting,leaving
+"【無理しないで】
+A: I can keep going.
+B: Don't overdo ___.",overdo it = 無理しすぎる,3,this,that,them,it
+"【なんとかする】
+A: What if this doesn't work?
+B: We'll figure it ___.",figure it out = なんとかする,2,in,up,out,off
+"【考え直す】
+A: This feels risky.
+B: Let's think it ___.",think it through = よく考える,3,out,up,over,through
+"【ざっと確認】
+A: Can you check my draft?
+B: Yeah, I'll look it ___.",look it over = ざっと確認する,2,up,out,over,through
+"【調べる】
+A: Do you know what that means?
+B: I'll look it ___.",look it up = 調べる,1,out,up,over,through
+"【見つけ出す】
+A: Did you find the link?
+B: Yeah, I tracked it ___.",track it down = 見つけ出す,3,up,in,off,down
+"【大したことない】
+A: Sorry, I forgot.
+B: It's not a big ___.",big deal = 大したこと,2,job,plan,deal,seat
+"【よくある】
+A: I totally blanked.
+B: It happens ___.",it happens = よくあるよ,3,never,early,later,sometimes
+"【まあいいか】
+A: That was kinda awkward.
+B: Yeah, but ___.",whatever = まあいいか,0,whatever,whenever,wherever,whoever
+"【本題に戻る】
+A: Anyway, let's get back to the ___.",get back to the point = 本題に戻る,2,room,line,point,seat
+"【よく気づいた】
+A: Did you bring your ID?
+B: Oh, good ___.",good call = よく気づいた、いい判断,3,time,place,seat,call
+"【君に任せる】
+A: Should we leave now or later?
+B: Your ___.",your call = 君に任せる,3,time,place,turn,call
+"【進捗教えて】
+A: I'll ask him and see.
+B: Keep me ___.",keep me posted = 進捗教えて,3,ready,late,done,posted
+"【気まずい沈黙】
+A: Well, that got quiet.
+B: Yeah, awkward ___.",awkward silence = 気まずい沈黙,1,timing,silence,weather,meeting
+"【話を切り上げる】
+A: I should probably head out.
+B: Yeah, no ___.",no worries = 大丈夫、気にしないで,3,rush,chair,window,worries
