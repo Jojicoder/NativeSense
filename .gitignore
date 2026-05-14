@@ -18,9 +18,9 @@ DerivedData/
 .swiftpm/
 
 # Database (runtime data)
-NativeSenseDB/*.sqlite3
-NativeSenseDB/*.sqlite3-shm
-NativeSenseDB/*.sqlite3-wal
+TapLingoDB/*.sqlite3
+TapLingoDB/*.sqlite3-shm
+TapLingoDB/*.sqlite3-wal
 
 # Backup files
 *.bak

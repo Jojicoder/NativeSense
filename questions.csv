@@ -46,7 +46,7 @@ A: He bailed again.
 B: Saw that ___.",saw that coming = そうなると思った,3,early,late,soon,coming
 "【ドタキャンする】
 A: Are we still on?
-B: I might have to bail ___.",bail = 行くのをやめる、抜ける,2,in,up,out,off
+B: I might have to ___.",bail / back out = 行くのをやめる、抜ける,2,cut,pass,bail,quit
 "【中止する】
 A: The weather looks awful.
 B: Yeah, let's call it ___.",call it off = 中止する,3,on,in,out,off
@@ -103,7 +103,7 @@ A: That was awkward.
 B: Yeah, pretty ___.",pretty much = ほぼそう、かなりそう,3,less,more,close,much
 "【冗談だよ】
 A: Wait, are you serious?
-B: Nah, I'm just ___.",just messing with you = からかってるだけ,1,talking,messing,waiting,leaving
+B: Nah, I'm just ___ with you.",just messing with you = からかってるだけ,1,talking,messing,waiting,leaving
 "【無理しないで】
 A: I can keep going.
 B: Don't overdo ___.",overdo it = 無理しすぎる,3,this,that,them,it
@@ -148,3 +148,153 @@ B: Yeah, awkward ___.",awkward silence = 気まずい沈黙,1,timing,silence,wea
 "【話を切り上げる】
 A: I should probably head out.
 B: Yeah, no ___.",no worries = 大丈夫、気にしないで,3,rush,chair,window,worries
+"【最高】
+A: How was the party?
+B: It was ___.",lit = 最高、めっちゃ楽しい,2,bad,late,lit,lost
+"【ばれる】
+A: Did you tell her?
+B: No, but I think she's onto ___.",onto us = 私たちのことに気づいている、ばれている,3,me,you,them,us
+"【イライラする】
+A: He keeps interrupting me.
+B: That's so ___.",annoying = イライラする、うざい,1,funny,annoying,good,weird
+"【落ち着いて】
+A: I'm freaking out!
+B: Hey, just chill ___.",chill out = 落ち着く,0,out,in,up,off
+"【まじで？】
+A: I won the lottery!
+B: For ___?",for real = まじで？、本当に？,2,sure,now,real,good
+"【連絡を絶たれる】
+A: He hasn't replied in a week.
+B: Looks like you got ___.",ghosted = 連絡を無視される、音信不通にされる,2,lost,left,ghosted,dropped
+"【連絡して】
+A: I'm free this weekend.
+B: Cool, ___.",hit me up = 連絡して,0,hit me up,call me up,get me up,take me up
+"【噂話を教えて】
+A: I heard what happened last night.
+B: Omg, ___!",spill the tea = 噂話（秘密）を教えて,1,say the word,spill the tea,tell the story,drop the cup
+"【完璧、イケてる】
+A: How's my outfit?
+B: It's ___.",on point = 完璧、バッチリ,3,on line,on time,on track,on point
+"【マジで、嘘じゃない】
+A: That was the best movie ever, ___.
+B: I totally agree.",no cap = マジで、嘘じゃない,1,no hat,no cap,no lie,no joke
+"【ぼったくり】
+A: 50 bucks for a coffee?
+B: That's a total ___!",rip-off = ぼったくり,2,high price,steal,rip-off,take-away
+"【急いで】
+A: We're gonna be late!
+B: Come on, ___ ___!",chop chop = 急いで、早く早く,1,hurry hurry,chop chop,fast fast,run run
+"【ダサい】
+A: He wore sunglasses indoors at night.
+B: Wow, that's so ___.",lame = ダサい、つまらない,3,uncool,bad sense,dark,lame
+"【大成功する】
+A: How was your presentation?
+B: I totally ___ it!",killed it = 大成功した、うまくやった,0,killed,succeeded,died,made
+"【怪しい】
+A: This website is selling iPhones for $50.
+B: Sounds pretty ___ to me.",sketchy = 怪しい、胡散臭い,2,strange,dangerous,sketchy,shadow
+"【全くわからない】
+A: Do you know how to fix this printer?
+B: ___ me.",Beats me = 全くわからない、見当もつかない,1,Loses,Beats,Hits,Kicks
+"【おごるよ】
+A: Let me pay for dinner.
+B: No way, it's ___ me.",on me = 私のおごり,2,for,to,on,with
+"【ドン引きする】
+A: He keeps staring at us.
+B: Yeah, it totally ___ me out.",creeps me out = ドン引きさせる、気味悪くさせる,1,pulls,creeps,draws,brings
+"【すごく嬉しい】
+A: We got front row tickets!
+B: No way! I'm so ___!",stoked = すごく嬉しい、ワクワクしている,2,high tension,highly,stoked,upper
+"【ドタキャンする】
+A: Where is Sarah?
+B: She ___ on us again.",flaked = ドタキャンした,0,flaked,canceled,dropped,broke
+"【まじで最高】
+A: Check out my new sneakers.
+B: Whoa, those are ___!",dope = 最高、かっこいい,1,super,dope,god,upper
+"【イライラさせる】
+A: That noise is driving me crazy.
+B: Yeah, it's getting on my ___.",get on my nerves = イライラさせる、神経に障る,2,mind,brain,nerves,head
+"【仲間に入る】
+A: We're ordering pizza. You want some?
+B: I'm ___.",I'm in = 仲間に入る、参加する,1,join,in,on,enter
+"【最高、ヤバい】
+A: Did you see that skateboard trick?
+B: Yeah, that was ___!",sick = 最高、ヤバい（良い意味で）,3,bad,ill,disease,sick
+"【八つ当たりする】
+A: Why is he yelling at me?
+B: He's just taking it ___ on you.",take it out on = ～に八つ当たりする,0,out,off,up,down
+"【偶然出くわす】
+A: Guess who I ___ into at the mall?
+B: Who?",bump into = 偶然出くわす、ばったり会う,2,met,crashed,bumped,hit
+"【面倒くさい】
+A: We have to fill out 10 forms.
+B: Ugh, what a ___.",pain = 面倒なこと、うざいこと,1,trouble,pain,hard work,bother
+"【サボる】
+A: Where were you during first period?
+B: I decided to ___ class.",ditch = サボる、すっぽかす,3,cut,sleep,rest,ditch
+"【限界、もう無理】
+A: Are you still trying to fix that car?
+B: No, I'm ___ with it.",done = もう限界、見切りをつけた,0,done,over,finished,dead
+"【割り勘にする】
+A: How should we pay the bill?
+B: Let's go ___.",go Dutch = 割り勘にする,1,half half,Dutch,split,separate
+"【どうしようもない】
+A: Can you help me out?
+B: Sorry, my hands are ___.",my hands are tied = どうしようもない,2,full,bound,tied,locked
+"【覚悟を決める】
+A: I don't want to tell him.
+B: You just have to bite the ___.",bite the bullet = 覚悟を決める,1,dust,bullet,pill,apple
+"【体調が悪い】
+A: You coming to the party?
+B: No, I'm feeling a bit under the ___.",under the weather = 体調が悪い,3,cloud,rain,sun,weather
+"【本題を避ける】
+A: Just tell me what happened.
+B: Stop beating around the ___.",beat around the bush = 本題を避ける / 回りくどく言う,0,bush,tree,corner,block
+"【単刀直入に言う】
+A: We don't have much time.
+B: Let's cut to the ___.",cut to the chase = 単刀直入に言う,1,point,chase,end,truth
+"【持ちこたえる】
+A: This project is so hard.
+B: Just ___ in there.",hang in there = 持ちこたえる、がんばる,2,stay,keep,hang,hold
+"【からかう】
+A: Are you serious?
+B: No, I'm just pulling your ___.",pull someone's leg = からかう,3,arm,hair,ear,leg
+"【今のところ順調】
+A: How's the new job?
+B: So far, so ___.","so far, so good = 今のところ順調",0,good,well,nice,great
+"【終わらせる】
+A: It's getting late.
+B: Let's ___ this up.",wrap up = 終わらせる,1,pack,wrap,finish,close
+"【共通認識を持っている】
+A: Do we agree on the plan?
+B: Yes, we're on the same ___.",on the same page = 共通認識を持っている,2,book,line,page,boat
+"【突然】
+A: Why did he quit?
+B: I don't know, it was completely out of the ___.",out of the blue = 突然,3,red,dark,nowhere,blue
+"【朝飯前】
+A: Was the test hard?
+B: No, it was a piece of ___.",piece of cake = 朝飯前、楽勝,0,cake,pie,bread,candy
+"【がんばれ】
+A: I have my audition today.
+B: Break a ___!",break a leg = がんばれ（幸運を祈る）,1,arm,leg,back,neck
+"【決定権を持つ】
+A: Who is in charge here?
+B: She's the one who calls the ___.",call the shots = 決定権を持つ,2,plays,moves,shots,rules
+"【コツをつかむ】
+A: This game is confusing.
+B: You'll get the ___ of it soon.",get the hang of it = コツをつかむ,3,trick,way,sense,hang
+"【思いつきで】
+A: Do you know the population?
+B: Not off the ___ of my head.",off the top of my head = 思いつきで、パッと考えて,0,top,tip,back,front
+"【ピンとくる】
+A: Do you know John Smith?
+B: The name doesn't ring a ___.",ring a bell = ピンとくる、聞き覚えがある,1,alarm,bell,chime,phone
+"【気楽にやる】
+A: I'm so stressed about this.
+B: Just take it ___.",take it easy = 気楽にやる、落ち着く,2,slow,light,easy,cool
+"【未定で】
+A: Are we still going on vacation?
+B: It's still up in the ___.",up in the air = 未定で、宙に浮いて,3,sky,space,clouds,air
+"【経験則】
+A: How much pasta should I make?
+B: As a rule of ___, one handful per person.",rule of thumb = 経験則、大まかな基準,0,thumb,hand,finger,mind

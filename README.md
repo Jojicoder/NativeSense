@@ -1,4 +1,4 @@
-# NativeSense
+# TapLingo
 
 SwiftUI で作った 4択クイズアプリ。問題は SQLite で管理し、Python スクリプトで追加・インポートできる。
 
@@ -11,11 +11,11 @@ SwiftUI で作った 4択クイズアプリ。問題は SQLite で管理し、Py
 ## 構成
 
 ```
-NativeSense/          # Swift ソース
+TapLingo/             # Swift ソース
   ContentView.swift   # クイズ UI
   Question.swift      # データモデル
   DBManager.swift     # SQLite 操作
-NativeSenseDB/        # DB ファイル置き場（.gitignore 対象）
+TapLingoDB/           # DB ファイル置き場（.gitignore 対象）
 add_question.py       # 対話形式で1問追加
 import_questions.py   # CSV から一括インポート
 questions.csv         # 問題データ
@@ -50,4 +50,4 @@ python3 add_question.py
 
 ## DB パスについて
 
-シミュレータ実行時は `NativeSenseDB/quiz.sqlite3`（プロジェクト内）、実機では `Documents/quiz.sqlite3` を使用する。
+シミュレータ実行時は `TapLingoDB/quiz.sqlite3`（プロジェクト内）、実機では `Documents/quiz.sqlite3` を使用する。

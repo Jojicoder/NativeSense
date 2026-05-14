@@ -12,37 +12,37 @@
 			containerPortal = EB6594F92FA30506002C1C08 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EB6595002FA30506002C1C08;
-			remoteInfo = NativeSense;
+			remoteInfo = TapLingo;
 		};
 		EB6595192FA30507002C1C08 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EB6594F92FA30506002C1C08 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EB6595002FA30506002C1C08;
-			remoteInfo = NativeSense;
+			remoteInfo = TapLingo;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EB6595012FA30506002C1C08 /* NativeSense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NativeSense.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB65950E2FA30507002C1C08 /* NativeSenseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NativeSenseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB6595182FA30507002C1C08 /* NativeSenseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NativeSenseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB6595012FA30506002C1C08 /* TapLingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapLingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB65950E2FA30507002C1C08 /* TapLingoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapLingoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB6595182FA30507002C1C08 /* TapLingoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapLingoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		EB6595032FA30506002C1C08 /* NativeSense */ = {
+		EB6595032FA30506002C1C08 /* TapLingo */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = NativeSense;
+			path = TapLingo;
 			sourceTree = "<group>";
 		};
-		EB6595112FA30507002C1C08 /* NativeSenseTests */ = {
+		EB6595112FA30507002C1C08 /* TapLingoTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = NativeSenseTests;
+			path = TapLingoTests;
 			sourceTree = "<group>";
 		};
-		EB65951B2FA30507002C1C08 /* NativeSenseUITests */ = {
+		EB65951B2FA30507002C1C08 /* TapLingoUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = NativeSenseUITests;
+			path = TapLingoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +75,9 @@
 		EB6594F82FA30506002C1C08 = {
 			isa = PBXGroup;
 			children = (
-				EB6595032FA30506002C1C08 /* NativeSense */,
-				EB6595112FA30507002C1C08 /* NativeSenseTests */,
-				EB65951B2FA30507002C1C08 /* NativeSenseUITests */,
+				EB6595032FA30506002C1C08 /* TapLingo */,
+				EB6595112FA30507002C1C08 /* TapLingoTests */,
+				EB65951B2FA30507002C1C08 /* TapLingoUITests */,
 				EB6595022FA30506002C1C08 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +85,9 @@
 		EB6595022FA30506002C1C08 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EB6595012FA30506002C1C08 /* NativeSense.app */,
-				EB65950E2FA30507002C1C08 /* NativeSenseTests.xctest */,
-				EB6595182FA30507002C1C08 /* NativeSenseUITests.xctest */,
+				EB6595012FA30506002C1C08 /* TapLingo.app */,
+				EB65950E2FA30507002C1C08 /* TapLingoTests.xctest */,
+				EB6595182FA30507002C1C08 /* TapLingoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EB6595002FA30506002C1C08 /* NativeSense */ = {
+		EB6595002FA30506002C1C08 /* TapLingo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EB6595222FA30507002C1C08 /* Build configuration list for PBXNativeTarget "NativeSense" */;
+			buildConfigurationList = EB6595222FA30507002C1C08 /* Build configuration list for PBXNativeTarget "TapLingo" */;
 			buildPhases = (
 				EB6594FD2FA30506002C1C08 /* Sources */,
 				EB6594FE2FA30506002C1C08 /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				EB6595032FA30506002C1C08 /* NativeSense */,
+				EB6595032FA30506002C1C08 /* TapLingo */,
 			);
-			name = NativeSense;
+			name = TapLingo;
 			packageProductDependencies = (
 			);
-			productName = NativeSense;
-			productReference = EB6595012FA30506002C1C08 /* NativeSense.app */;
+			productName = TapLingo;
+			productReference = EB6595012FA30506002C1C08 /* TapLingo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EB65950D2FA30507002C1C08 /* NativeSenseTests */ = {
+		EB65950D2FA30507002C1C08 /* TapLingoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EB6595252FA30507002C1C08 /* Build configuration list for PBXNativeTarget "NativeSenseTests" */;
+			buildConfigurationList = EB6595252FA30507002C1C08 /* Build configuration list for PBXNativeTarget "TapLingoTests" */;
 			buildPhases = (
 				EB65950A2FA30507002C1C08 /* Sources */,
 				EB65950B2FA30507002C1C08 /* Frameworks */,
@@ -131,18 +131,18 @@
 				EB6595102FA30507002C1C08 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				EB6595112FA30507002C1C08 /* NativeSenseTests */,
+				EB6595112FA30507002C1C08 /* TapLingoTests */,
 			);
-			name = NativeSenseTests;
+			name = TapLingoTests;
 			packageProductDependencies = (
 			);
-			productName = NativeSenseTests;
-			productReference = EB65950E2FA30507002C1C08 /* NativeSenseTests.xctest */;
+			productName = TapLingoTests;
+			productReference = EB65950E2FA30507002C1C08 /* TapLingoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		EB6595172FA30507002C1C08 /* NativeSenseUITests */ = {
+		EB6595172FA30507002C1C08 /* TapLingoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EB6595282FA30507002C1C08 /* Build configuration list for PBXNativeTarget "NativeSenseUITests" */;
+			buildConfigurationList = EB6595282FA30507002C1C08 /* Build configuration list for PBXNativeTarget "TapLingoUITests" */;
 			buildPhases = (
 				EB6595142FA30507002C1C08 /* Sources */,
 				EB6595152FA30507002C1C08 /* Frameworks */,
@@ -154,13 +154,13 @@
 				EB65951A2FA30507002C1C08 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				EB65951B2FA30507002C1C08 /* NativeSenseUITests */,
+				EB65951B2FA30507002C1C08 /* TapLingoUITests */,
 			);
-			name = NativeSenseUITests;
+			name = TapLingoUITests;
 			packageProductDependencies = (
 			);
-			productName = NativeSenseUITests;
-			productReference = EB6595182FA30507002C1C08 /* NativeSenseUITests.xctest */;
+			productName = TapLingoUITests;
+			productReference = EB6595182FA30507002C1C08 /* TapLingoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EB6594FC2FA30506002C1C08 /* Build configuration list for PBXProject "NativeSense" */;
+			buildConfigurationList = EB6594FC2FA30506002C1C08 /* Build configuration list for PBXProject "TapLingo" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -196,16 +196,15 @@
 			mainGroup = EB6594F82FA30506002C1C08;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				EB6595372FA30D0E002C1C08 /* XCRemoteSwiftPackageReference "SQLite" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = EB6595022FA30506002C1C08 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EB6595002FA30506002C1C08 /* NativeSense */,
-				EB65950D2FA30507002C1C08 /* NativeSenseTests */,
-				EB6595172FA30507002C1C08 /* NativeSenseUITests */,
+				EB6595002FA30506002C1C08 /* TapLingo */,
+				EB65950D2FA30507002C1C08 /* TapLingoTests */,
+				EB6595172FA30507002C1C08 /* TapLingoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -261,12 +260,12 @@
 /* Begin PBXTargetDependency section */
 		EB6595102FA30507002C1C08 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EB6595002FA30506002C1C08 /* NativeSense */;
+			target = EB6595002FA30506002C1C08 /* TapLingo */;
 			targetProxy = EB65950F2FA30507002C1C08 /* PBXContainerItemProxy */;
 		};
 		EB65951A2FA30507002C1C08 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EB6595002FA30506002C1C08 /* NativeSense */;
+			target = EB6595002FA30506002C1C08 /* TapLingo */;
 			targetProxy = EB6595192FA30507002C1C08 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -403,6 +402,7 @@
 				DEVELOPMENT_TEAM = XFTT995Z5X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TapLingo;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -413,7 +413,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Game.NativeSense;
+				OTHER_LDFLAGS = "-lsqlite3";
+				PRODUCT_BUNDLE_IDENTIFIER = Game.TapLingo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -435,6 +436,7 @@
 				DEVELOPMENT_TEAM = XFTT995Z5X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TapLingo;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -445,7 +447,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Game.NativeSense;
+				OTHER_LDFLAGS = "-lsqlite3";
+				PRODUCT_BUNDLE_IDENTIFIER = Game.TapLingo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -467,7 +470,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Game.NativeSenseTests;
+				PRODUCT_BUNDLE_IDENTIFIER = Game.TapLingoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -475,7 +478,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NativeSense.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NativeSense";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapLingo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TapLingo";
 			};
 			name = Debug;
 		};
@@ -489,7 +492,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Game.NativeSenseTests;
+				PRODUCT_BUNDLE_IDENTIFIER = Game.TapLingoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -497,7 +500,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NativeSense.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NativeSense";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapLingo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TapLingo";
 			};
 			name = Release;
 		};
@@ -509,7 +512,7 @@
 				DEVELOPMENT_TEAM = XFTT995Z5X;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Game.NativeSenseUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = Game.TapLingoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -517,7 +520,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = NativeSense;
+				TEST_TARGET_NAME = TapLingo;
 			};
 			name = Debug;
 		};
@@ -529,7 +532,7 @@
 				DEVELOPMENT_TEAM = XFTT995Z5X;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Game.NativeSenseUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = Game.TapLingoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -537,14 +540,14 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = NativeSense;
+				TEST_TARGET_NAME = TapLingo;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EB6594FC2FA30506002C1C08 /* Build configuration list for PBXProject "NativeSense" */ = {
+		EB6594FC2FA30506002C1C08 /* Build configuration list for PBXProject "TapLingo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EB6595202FA30507002C1C08 /* Debug */,
@@ -553,7 +556,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EB6595222FA30507002C1C08 /* Build configuration list for PBXNativeTarget "NativeSense" */ = {
+		EB6595222FA30507002C1C08 /* Build configuration list for PBXNativeTarget "TapLingo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EB6595232FA30507002C1C08 /* Debug */,
@@ -562,7 +565,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EB6595252FA30507002C1C08 /* Build configuration list for PBXNativeTarget "NativeSenseTests" */ = {
+		EB6595252FA30507002C1C08 /* Build configuration list for PBXNativeTarget "TapLingoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EB6595262FA30507002C1C08 /* Debug */,
@@ -571,7 +574,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EB6595282FA30507002C1C08 /* Build configuration list for PBXNativeTarget "NativeSenseUITests" */ = {
+		EB6595282FA30507002C1C08 /* Build configuration list for PBXNativeTarget "TapLingoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EB6595292FA30507002C1C08 /* Debug */,
@@ -582,16 +585,6 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		EB6595372FA30D0E002C1C08 /* XCRemoteSwiftPackageReference "SQLite" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/stephencelis/SQLite.swift";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.16.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = EB6594F92FA30506002C1C08 /* Project object */;
 }

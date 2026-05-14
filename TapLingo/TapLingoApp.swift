@@ -1,6 +1,6 @@
 //
-//  NativeSenseApp.swift
-//  NativeSense
+//  TapLingoApp.swift
+//  TapLingo
 //
 //  Created by Joji Kashimura on 4/29/26.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct NativeSenseApp: App {
+struct TapLingoApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

@@ -4,15 +4,38 @@ import csv
 import sys
 import os
 
-DB  = "/Users/jojo/Desktop/NativeSense/NativeSenseDB/quiz.sqlite3"
-CSV = "/Users/jojo/Desktop/NativeSense/questions.csv"
+ROOT = os.path.dirname(os.path.abspath(__file__))
+DB = os.path.join(ROOT, "TapLingoDB", "quiz.sqlite3")
+CSV = os.path.join(ROOT, "questions.csv")
+
+def create_tables(cur):
+    cur.execute("""
+        CREATE TABLE IF NOT EXISTS questions (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            text TEXT,
+            explanation TEXT,
+            correct_index INTEGER
+        )
+    """)
+    cur.execute("""
+        CREATE TABLE IF NOT EXISTS choices (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            question_id INTEGER,
+            text TEXT,
+            position INTEGER DEFAULT 0,
+            FOREIGN KEY(question_id) REFERENCES questions(id)
+        )
+    """)
 
 if not os.path.exists(CSV):
     print(f"CSVファイルが見つかりません: {CSV}")
     sys.exit(1)
 
+os.makedirs(os.path.dirname(DB), exist_ok=True)
 conn = sqlite3.connect(DB)
 cur  = conn.cursor()
+cur.execute("PRAGMA foreign_keys = ON")
+create_tables(cur)
 
 added = 0
 skipped = 0

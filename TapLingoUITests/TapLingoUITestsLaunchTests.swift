@@ -1,13 +1,13 @@
 //
-//  NativeSenseUITestsLaunchTests.swift
-//  NativeSenseUITests
+//  TapLingoUITestsLaunchTests.swift
+//  TapLingoUITests
 //
 //  Created by Joji Kashimura on 4/29/26.
 //
 
 import XCTest
 
-final class NativeSenseUITestsLaunchTests: XCTestCase {
+final class TapLingoUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
