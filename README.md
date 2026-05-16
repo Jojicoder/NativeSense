@@ -1,6 +1,15 @@
 # TapLingo
 
-SwiftUI で作った英語表現の4択クイズアプリ。問題はCSVで管理し、SQLiteに一括インポートしてアプリに同梱する。
+アメリカ人同士のリアルな話し言葉を学ぶ英語クイズアプリ
+問題はCSVで管理し、SQLiteに一括インポートしてアプリに同梱する。
+
+TapLingo is a SwiftUI-based multiple-choice quiz app for learning how Americans actually speak in everyday conversations.
+
+The app focuses on real spoken English used between native speakers, including slang, casual phrases, indirect communication, and hidden meanings.
+
+Instead of memorizing textbook English, TapLingo helps users understand what people really mean in natural American conversations.
+
+Questions are managed with CSV, imported into SQLite, and bundled with the app.
 
 ## 機能
 
