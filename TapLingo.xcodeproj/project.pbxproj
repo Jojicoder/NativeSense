@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EB311DC02FB5999600D3A956 /* quiz.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = EB311DBF2FB5999600D3A956 /* quiz.sqlite3 */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		EB65950F2FA30507002C1C08 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB311DBF2FB5999600D3A956 /* quiz.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = quiz.sqlite3; sourceTree = "<group>"; };
 		EB6595012FA30506002C1C08 /* TapLingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapLingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB65950E2FA30507002C1C08 /* TapLingoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapLingoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB6595182FA30507002C1C08 /* TapLingoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapLingoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +80,7 @@
 		EB6594F82FA30506002C1C08 = {
 			isa = PBXGroup;
 			children = (
+				EB311DBF2FB5999600D3A956 /* quiz.sqlite3 */,
 				EB6595032FA30506002C1C08 /* TapLingo */,
 				EB6595112FA30507002C1C08 /* TapLingoTests */,
 				EB65951B2FA30507002C1C08 /* TapLingoUITests */,
@@ -214,6 +220,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB311DC02FB5999600D3A956 /* quiz.sqlite3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -584,7 +591,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
 	};
 	rootObject = EB6594F92FA30506002C1C08 /* Project object */;
 }

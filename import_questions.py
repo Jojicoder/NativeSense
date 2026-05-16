@@ -3,9 +3,11 @@ import sqlite3
 import csv
 import sys
 import os
+import shutil
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
-DB = os.path.join(ROOT, "TapLingoDB", "quiz.sqlite3")
+BUNDLE_DB = os.path.join(ROOT, "quiz.sqlite3")
+SIMULATOR_DB = os.path.join(ROOT, "TapLingoDB", "quiz.sqlite3")
 CSV = os.path.join(ROOT, "questions.csv")
 
 def create_tables(cur):
@@ -14,7 +16,9 @@ def create_tables(cur):
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             text TEXT,
             explanation TEXT,
-            correct_index INTEGER
+            correct_index INTEGER,
+            difficulty TEXT DEFAULT '',
+            question_type TEXT DEFAULT ''
         )
     """)
     cur.execute("""
@@ -27,50 +31,72 @@ def create_tables(cur):
         )
     """)
 
-if not os.path.exists(CSV):
-    print(f"CSVファイルが見つかりません: {CSV}")
-    sys.exit(1)
+def reset_tables(cur):
+    cur.execute("DROP TABLE IF EXISTS choices")
+    cur.execute("DROP TABLE IF EXISTS questions")
+    create_tables(cur)
 
-os.makedirs(os.path.dirname(DB), exist_ok=True)
-conn = sqlite3.connect(DB)
-cur  = conn.cursor()
-cur.execute("PRAGMA foreign_keys = ON")
-create_tables(cur)
+def import_csv(db_path):
+    if not os.path.exists(CSV):
+        print(f"CSVファイルが見つかりません: {CSV}")
+        sys.exit(1)
 
-added = 0
-skipped = 0
+    conn = sqlite3.connect(db_path)
+    cur = conn.cursor()
+    cur.execute("PRAGMA foreign_keys = ON")
+    create_tables(cur)
+    reset_tables(cur)
 
-with open(CSV, encoding="utf-8-sig") as f:
-    reader = csv.DictReader(f)
-    for row in reader:
-        text    = row["text"].replace("\\n", "\n").strip()
-        exp     = row["explanation"].strip()
-        correct = int(row["correct_index"])
-        choices = [row["choice0"].strip(), row["choice1"].strip(),
-                   row["choice2"].strip(), row["choice3"].strip()]
+    added = 0
+    skipped = 0
 
-        if not text or not all(choices):
-            skipped += 1
-            continue
+    with open(CSV, encoding="utf-8-sig") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            text = row["question_text"].replace("\\n", "\n").strip()
+            exp = row["explanation"].strip()
+            correct = int(row["correct_index"])
+            choices = [
+                row["choice_0"].strip(),
+                row["choice_1"].strip(),
+                row["choice_2"].strip(),
+                row["choice_3"].strip()
+            ]
 
-        cur.execute("SELECT id FROM questions WHERE text = ?", (text,))
-        if cur.fetchone():
-            skipped += 1
-            continue
+            difficulty = row.get("difficulty", "").strip()
+            question_type = row.get("type", "").strip()
 
-        cur.execute(
-            "INSERT INTO questions (text, explanation, correct_index) VALUES (?, ?, ?)",
-            (text, exp, correct)
-        )
-        qid = cur.lastrowid
-        for i, c in enumerate(choices):
+            if not text or not all(choices):
+                skipped += 1
+                continue
+
             cur.execute(
-                "INSERT INTO choices (question_id, text, position) VALUES (?, ?, ?)",
-                (qid, c, i)
+                "INSERT INTO questions (text, explanation, correct_index, difficulty, question_type) VALUES (?, ?, ?, ?, ?)",
+                (text, exp, correct, difficulty, question_type)
             )
-        print(f"追加: [{qid}] {text[:30].replace(chr(10), ' / ')}")
-        added += 1
+            qid = cur.lastrowid
+            for i, c in enumerate(choices):
+                cur.execute(
+                    "INSERT INTO choices (question_id, text, position) VALUES (?, ?, ?)",
+                    (qid, c, i)
+                )
+            print(f"追加: [{qid}] {text[:30].replace(chr(10), ' / ')}")
+            added += 1
 
-conn.commit()
-conn.close()
-print(f"\n完了: {added}問追加")
+    conn.commit()
+    conn.close()
+    return added, skipped
+
+def main():
+    os.makedirs(os.path.dirname(SIMULATOR_DB), exist_ok=True)
+    added, skipped = import_csv(BUNDLE_DB)
+    shutil.copy2(BUNDLE_DB, SIMULATOR_DB)
+
+    print(f"\n完了: {added}問追加")
+    if skipped:
+        print(f"スキップ: {skipped}行")
+    print(f"同梱DBを更新: {BUNDLE_DB}")
+    print(f"シミュレータ用DBを更新: {SIMULATOR_DB}")
+
+if __name__ == "__main__":
+    main()
